@@ -1,0 +1,19 @@
+2022-02-27 19:47:35.932 +01:00 [INF] Now listening on: https://localhost:7274
+2022-02-27 19:47:36.013 +01:00 [INF] Now listening on: http://localhost:5121
+2022-02-27 19:47:36.023 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-27 19:47:36.026 +01:00 [INF] Hosting environment: Development
+2022-02-27 19:47:36.027 +01:00 [INF] Content root path: /Users/edi/Documents/GitHub/Darknet/API/
+2022-02-27 19:47:37.006 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7274/swagger/index.html - -
+2022-02-27 19:47:37.359 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7274/swagger/index.html - - - 200 - text/html;charset=utf-8 352.3119ms
+2022-02-27 19:47:37.441 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7274/swagger/swagger-ui.css - -
+2022-02-27 19:47:37.496 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-02-27 19:47:37.498 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7274/swagger/swagger-ui.css - - - 0 143632 text/css 56.4528ms
+2022-02-27 19:47:37.740 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7274/swagger/v1/swagger.json - -
+2022-02-27 19:47:37.998 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7274/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 255.8777ms
+2022-02-27 19:48:40.654 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5121/ application/json 20
+2022-02-27 19:48:40.689 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5121/ application/json 20 - 307 0 - 39.2260ms
+2022-02-27 19:48:40.872 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7274/ application/json 20
+2022-02-27 19:48:40.898 +01:00 [INF] Executing endpoint 'HTTP: POST /'
+2022-02-27 19:48:43.958 +01:00 [INF] Data: {"Test":"Ok"}
+2022-02-27 19:48:45.009 +01:00 [INF] Executed endpoint 'HTTP: POST /'
+2022-02-27 19:48:45.013 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7274/ application/json 20 - 200 0 - 4141.4322ms
